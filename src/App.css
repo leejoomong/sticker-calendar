@@ -1,22 +1,29 @@
 .App {
   text-align: center;
   background-color: #f3f3f3;
+  height: 100vh;
+  padding-top: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-tab {
+  margin: 10em
 }
+
+.Calendar {
+  text-align: center;
+  background-color: #ffffff;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .Calendar-logo {
+    animation: Calendar-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #f3f3f3;
-  min-height: 10vh;
+.Calendar-header {
+  background-color: #ffffff;
+  min-height: 12vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,20 +32,7 @@
   color: #2e2e2e;
 }
 
-.App-body {
-  background-color: #f3f3f3;
-  min-height: 90vh;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Calendar-body {
+  background-color: #ffffff;
+  min-height: 60vh;
 }
